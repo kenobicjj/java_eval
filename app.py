@@ -58,7 +58,7 @@ chatbot_rag_last_updated = 0
 
 # --- Knowledge Documents Table (SQLite) ---
 def init_knowledge_table():
-    conn = sqlite3.connect('data/evaluations.db')
+    conn = sqlite3.connect('storage/evaluations.db')
     c = conn.cursor()
     c.execute('''CREATE TABLE IF NOT EXISTS knowledge_docs (
         id TEXT PRIMARY KEY,
@@ -190,7 +190,7 @@ def index():
             'feedback': sub['feedback']
         })
     # Get all knowledge docs
-    conn = sqlite3.connect('data/evaluations.db')
+    conn = sqlite3.connect('storage/evaluations.db')
     c = conn.cursor()
     c.execute("SELECT id, filename, upload_date FROM knowledge_docs")
     knowledge_docs = c.fetchall()
