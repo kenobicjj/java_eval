@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    container_name: java-eval-app
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+      - storage:/app/storage
+      - data:/app/data
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PYTHONDONTWRITEBYTECODE=1
+      - HOST=0.0.0.0
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  storage:
+  data: 

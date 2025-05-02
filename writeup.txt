@@ -1,0 +1,11 @@
+initial design on chatgpt
+
+moved on to cursor to do debugging and feature additions
+
+cursor refactored the code to monolithic structure using only a few files which were not agentic ai, the context window seems small and cannot grasp the entirety of the project.
+
+The recommendations provided were localised to a select few files only.
+
+After 50 iterations on the chat box, the assessment brief upload and project upload works, but the analysis agentic approach doesn't, and it switched from postgresql to sqlite automatically without my approval.
+
+By this point the project needs to be entirely refactored to the agentic approach, since the current analysis is not robust enough to handle different folder structures of the java projects.

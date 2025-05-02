@@ -1,0 +1,119 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+pip-wheel-metadata/
+pip-log.txt
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# VS Code
+.vscode/
+.code-workspace
+
+# PyCharm
+.idea/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Environment variables
+.env
+.env.*
+
+# Database
+*.sqlite3
+*.db
+*.psql
+*.pgdata
+pgdata/
+postgres-data/
+data/
+
+# Storage (uploaded files, assessment briefs, etc.)
+storage/
+!storage/.gitkeep
+
+# Ollama models/cache (if any local cache is used)
+ollama/
+
+# ChromaDB local data
+chroma/
+chroma_db/
+chroma_data/
+
+# Node (if you ever use JS tooling)
+node_modules/
+
+# PDF/ZIP test files
+*.pdf
+*.zip
+
+# Misc
+*.bak
+*.swp
+*.swo
+*.tmp 

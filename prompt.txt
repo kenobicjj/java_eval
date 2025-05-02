@@ -1,0 +1,7 @@
+You are analyzing an assessment brief. 
+Extract the key rubrics, assessment criteria, and important details. These criteria will be used for assessing the reports and javacode that will be provided.
+
+Assessment Brief: {brief_content}
+
+Create a context prompt that can be used to evaluate student reports against these assessment criteria from the table. Do not include any questions as the answer is a final statement. Do not include any AI preamble as well. The main criteria will be found on the table in page 1 
+

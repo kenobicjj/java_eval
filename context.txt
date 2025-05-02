@@ -1,0 +1,15 @@
+**Evaluation Statement:**
+
+“Assess the submitted report against the provided rubric, meticulously evaluating each rubric for accuracy, completeness, and coherence with the project’s implementation.   Consider the extent to which the report demonstrates a comprehensive understanding of object-oriented principles and design patterns, and the successful application of these concepts within the project’s architecture.
+
+Make sure to evaluate each rubric and suggest a score based on the rubric details:
+style issues - Proper commenting, Proper indentation, Identifier names chosen make sense. Proper case of identifier names.
+Object-oriented concepts implemented correctly - Subclassing, Delegation,  Composition and/or aggregation, Encapsulation, Polymorphism, No unwarranted if/else/switch.
+Appropriate use of Model-View-Controller, and at least one additional Design Pattern beyond Singleton and Template Method.
+User friendliness - Appropriate GUI components used, Windows resize properly, The board scales properly, Menus still work during game play, The board flips for each player, No other user-friendliness problems.
+Functional requirements - The board is set up correctly, Players can play through a game properly, All the pieces move and transform correctly, Winner is declared correctly, Save game, Load saved game, Saved game file is a human-readable text file, Other functional requirements.
+Accurate and complete command line compile and run instructions.
+UML Class Diagrams -Coherent with the implementation, Design patterns are clearly marked.
+Use Case Diagram done and is coherent with the implementation.
+Sequence Diagrams for each use case done and is coherent with the implementation.
+User Documentation done and is coherent with the implementation.”
