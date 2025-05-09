@@ -1,7 +1,7 @@
 # Java Project Evaluator
 
 A web application for automated evaluation of Java student projects against dynamically extracted assessment criteria from a provided brief, powered by local LLMs (Ollama + Gemma), LangChain, and PostgreSQL.
-![Java Evaluator Class Diagram](images/Java-eval_class.png)
+![Java Evaluator Class Diagram](images/java-eval_class.png)
 ![Java Evaluator Sequence Diagram](images/Java-eval_swimlane.png)
 ![Java Evaluator Screenshot](images/java.jpg)
 ---
